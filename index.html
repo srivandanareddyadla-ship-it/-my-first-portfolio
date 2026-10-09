@@ -1,0 +1,423 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vandana | Developer Portfolio</title>
+
+  <style>
+
+    * {
+
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+
+      scroll-behavior: smooth;
+
+    }
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      background: #0f172a;
+
+      color: #f8fafc;
+
+      line-height: 1.7;
+
+    }
+
+    nav {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      padding: 20px 8%;
+
+      background: #111c32;
+
+      position: sticky;
+
+      top: 0;
+
+    }
+
+    nav h2 {
+
+      color: #38bdf8;
+
+    }
+
+    nav a {
+
+      color: white;
+
+      text-decoration: none;
+
+      margin-left: 15px;
+
+      font-size: 14px;
+
+    }
+
+    section {
+
+      padding: 65px 8%;
+
+    }
+
+    .hero {
+
+      min-height: 75vh;
+
+      display: flex;
+
+      flex-direction: column;
+
+      justify-content: center;
+
+      align-items: flex-start;
+
+    }
+
+    .hero p {
+
+      margin: 15px 0;
+
+      max-width: 600px;
+
+      color: #cbd5e1;
+
+    }
+
+    h1 {
+
+      font-size: clamp(32px, 7vw, 52px);
+
+      line-height: 1.2;
+
+    }
+
+    h1 span, h2 {
+
+      color: #38bdf8;
+
+    }
+
+    .btn {
+
+      display: inline-block;
+
+      margin-top: 15px;
+
+      padding: 11px 22px;
+
+      background: #0284c7;
+
+      color: white;
+
+      text-decoration: none;
+
+      border-radius: 8px;
+
+    }
+
+    .card {
+
+      background: #1e293b;
+
+      padding: 22px;
+
+      border-radius: 12px;
+
+      margin-top: 18px;
+
+      border: 1px solid #334155;
+
+    }
+
+    .skills {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 10px;
+
+      margin-top: 18px;
+
+    }
+
+    .skills span {
+
+      background: #1e293b;
+
+      border: 1px solid #38bdf8;
+
+      padding: 8px 14px;
+
+      border-radius: 20px;
+
+    }
+
+    section h2 {
+
+      margin-bottom: 12px;
+
+    }
+
+    .card p {
+
+      color: #cbd5e1;
+
+      margin-top: 8px;
+
+    }
+
+    .contact a {
+
+      color: #38bdf8;
+
+    }
+
+    footer {
+
+      text-align: center;
+
+      padding: 22px;
+
+      color: #94a3b8;
+
+      background: #111c32;
+
+    }
+
+    @media (max-width: 500px) {
+
+      nav {
+
+        padding: 16px 5%;
+
+        flex-wrap: wrap;
+
+        gap: 10px;
+
+      }
+
+      nav a {
+
+        margin-left: 5px;
+
+        font-size: 12px;
+
+      }
+
+      section {
+
+        padding: 48px 6%;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <nav>
+
+    <h2>Vandana.</h2>
+
+    <div>
+
+      <a href="#about">About</a>
+
+      <a href="#skills">Skills</a>
+
+      <a href="#projects">Projects</a>
+
+      <a href="#contact">Contact</a>
+
+    </div>
+
+  </nav>
+
+  <section class="hero">
+
+    <p>Hello, welcome to my portfolio!</p>
+
+    <h1>I'm <span>Vandana</span></h1>
+
+    <h2>Future Full Stack Developer</h2>
+
+    <p>
+
+      I am an Electronics and Communication Engineering
+
+      graduate passionate about software development,
+
+      problem-solving and learning new technologies.
+
+    </p>
+
+    <a class="btn" href="#projects">Explore My Projects</a>
+
+  </section>
+
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="card">
+
+      <p>
+
+        I am an aspiring software developer with an ECE background.
+
+        I am building my skills in Java, SQL and web development.
+
+        My goal is to create useful applications and grow as a
+
+        Full Stack Developer.
+
+      </p>
+
+    </div>
+
+  </section>
+
+  <section id="skills">
+
+    <h2>Technical Skills</h2>
+
+    <div class="skills">
+
+      <span>Java</span>
+
+      <span>SQL</span>
+
+      <span>Python</span>
+
+      <span>HTML</span>
+
+      <span>CSS</span>
+
+      <span>JavaScript</span>
+
+      <span>GitHub</span>
+
+    </div>
+
+  </section>
+
+  <section id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="card">
+
+      <h3>Home Automation System</h3>
+
+      <p>
+
+        Developed a home automation concept using Arduino
+
+        and Bluetooth to control home appliances.
+
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <h3>IoT Based Smart Door System</h3>
+
+      <p>
+
+        Worked on a smart door system concept integrating
+
+        motion sensing and facial recognition for improved
+
+        access control.
+
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <h3>Personal Portfolio Website</h3>
+
+      <p>
+
+        Created a responsive personal website to showcase
+
+        my profile, technical skills and projects using HTML,
+
+        CSS and JavaScript.
+
+      </p>
+
+    </div>
+
+  </section>
+
+  <section id="contact" class="contact">
+
+    <h2>Contact Me</h2>
+
+    <div class="card">
+
+      <p>Interested in connecting or discussing opportunities?</p>
+
+      <p>Email: Add your email address here</p>
+
+      <p>LinkedIn: Add your LinkedIn profile link here</p>
+
+      <p>GitHub: Add your GitHub profile link here</p>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <p>Designed and built by Vandana | 2026</p>
+
+  </footer>
+
+  <script>
+
+    console.log("Welcome to Vandana's portfolio!");
+
+    document.querySelectorAll('nav a').forEach(function(link) {
+
+      link.addEventListener('click', function() {
+
+        console.log("Navigation clicked:", link.textContent);
+
+      });
+
+    });
+
+  </script>
+
+</body>
+
+</html>
